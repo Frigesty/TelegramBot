@@ -25,7 +25,7 @@ public class HomeTest extends TestBase {
     @DisplayName("Проверка тестовой формы")
     void practiceFormTest() {
 
-        String firstName = faker.name().firstName(),cp -r \Users\Frigesty\IdeaProjects\TelegramBot\build\reports\allure-report\allureReport\* .\allure-report
+        String firstName = faker.name().firstName(),
 
         lastName = faker.name().lastName(),
                userEmail = faker.internet().emailAddress(),
