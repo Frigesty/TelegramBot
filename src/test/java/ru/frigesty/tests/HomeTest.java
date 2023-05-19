@@ -25,8 +25,9 @@ public class HomeTest extends TestBase {
     @DisplayName("Проверка тестовой формы")
     void practiceFormTest() {
 
-        String firstName = faker.name().firstName(),
-                lastName = faker.name().lastName(),
+        String firstName = faker.name().firstName(),cp -r \Users\Frigesty\IdeaProjects\TelegramBot\build\reports\allure-report\allureReport\* .\allure-report
+
+        lastName = faker.name().lastName(),
                userEmail = faker.internet().emailAddress(),
               userGender = getRandomItemFromArray(TestData.gender),
               userNumber = 89 + faker.phoneNumber().subscriberNumber(8),
@@ -76,9 +77,7 @@ public class HomeTest extends TestBase {
         step("Выбираем штат и город", () -> {
             registrationPage.chooseStateAndCity(randomState, randomCity);
         });
-        step("Кликаем на кнопку Submit", () -> {
-            registrationPage.clickSubmit();
-        });
+        step("Кликаем на кнопку Submit", () -> registrationPage.clickSubmit());
         step("Проверяем результат", () -> {
             registrationPage.verifyRegistrationResultsModalAppears()
                             .verifyResult("Student Name", firstName + " " + lastName)

@@ -1,0 +1,1 @@
+{"44e46fb0510c18863d983e9671c73b81":{"statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"d385b69513880f63","status":"broken","statusDetails":"Cannot invoke \"String.split(String)\" because the return value of \"java.lang.System.getProperty(String)\" is null","time":{"start":1684489078247,"stop":1684489078248,"duration":1}}]}}
