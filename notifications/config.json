@@ -1,0 +1,17 @@
+{
+  "base": {
+    "logo": "",
+    "project": "TelegramBot",
+    "environment": "https://github.com/Frigesty?tab=repositories",
+    "comment": "Результаты",
+    "reportLink": "https://jenkins.autotests.cloud/",
+    "language": "ru",
+    "allureFolder": "allure-report/",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "6116315067:AAFH3a5ei6zpmCJ8XKpyi6OgQVC-zsLMZ2k",
+    "chat": "-1001897838525",
+    "replyTo": ""
+  }
+}
